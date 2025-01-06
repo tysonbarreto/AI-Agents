@@ -1,0 +1,18 @@
+[project]
+name = "Chatbots"
+version = "0.1.0"
+description = "Default template for PDM package"
+authors = [
+    {name = "", email = ""},
+]
+
+dependencies = ["langchain>=0.3.13", "langchain-core>=0.3.28", "langchain-groq>=0.2.2", "langchain-community>=0.3.13", "langgraph>=0.2.60", "python-dotenv>=1.0.1", "python-box>=7.3.0", "pyYAML>=6.0.2", "ipykernel>=6.29.5", "bs4>=0.0.2", "crewai>=0.95.0", "crewai-tools>=0.25.8"]
+requires-python = "==3.12.*"
+readme = "README.md"
+license = {text = "MIT"}
+
+[tool.pdm.build]
+package-dir="."
+
+[tool.pdm]
+distribution = false
